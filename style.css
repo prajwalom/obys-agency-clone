@@ -38,6 +38,11 @@ html, body {
     font-weight: 900;
 }
 
+.line h2 {
+    font-size: 6.5vw;
+    text-transform: uppercase;
+
+}
 
 .line {
     height: fit-content;
@@ -52,11 +57,17 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 1vw;
 }
 
 
 .loader-h5, .loader-h6 {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'silk serif';
+    font-weight: 100;
+}
+
+#loader-h5 {
+    width: 5vw;
+    text-align: right;
 }
